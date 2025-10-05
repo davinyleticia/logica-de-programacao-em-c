@@ -1,25 +1,25 @@
 #include <stdio.h>
-#include <math.h>
-#include<locale.h>
+#include <locale.h>
 
 int main() {
     setlocale(LC_ALL, "Portuguese_Brazil");
+
     float peso, altura, imc;
 
     printf("\n--- 1. Cálculo do IMC ---\n");
     printf("Digite o peso em kg (ex: 75.5): ");
 
-    if (scanf("%f", &peso) != 1) return; 
+    if (scanf("%f", &peso) != 1); 
 
     printf("Digite a altura em metros (ex: 1.75): ");
-    if (scanf("%f", &altura) != 1) return;
+    if (scanf("%f", &altura) != 1);
 
     if (altura <= 0) {
         printf("Altura inválida.\n");
-        return;
+        
     }
 
-    imc = peso / pow(altura, 2);
+    imc = peso / (altura * altura);
 
     printf("Seu IMC é: %.2f\n", imc);
     printf("Classificação: ");

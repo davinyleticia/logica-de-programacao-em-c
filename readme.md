@@ -37,9 +37,9 @@ O objetivo é registrar o conhecimento adquirido, demonstrar a aplicação prát
 `=` É para atribuição de variaveis
 
 
-# Constante
+## Constante
 
-dentro da função usa `const` e de uso global usa `#define`
+Dentro da função usa `const` e de uso global usa `#define`
 
 ## Ponteiros e endereçamento de memória
 

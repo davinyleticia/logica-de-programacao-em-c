@@ -4,6 +4,7 @@ Este repositório serve como meu diário de bordo e portfólio para os conteúdo
 
 O objetivo é registrar o conhecimento adquirido, demonstrar a aplicação prática dos conceitos e facilitar a revisão futura.
 
+## Conteúdo
 
 | Tópico Principal | Conteúdos Específicos | Habilidades Demonstradas |
 | :--- | :--- | :--- |
@@ -13,15 +14,14 @@ O objetivo é registrar o conhecimento adquirido, demonstrar a aplicação prát
 | **Modularização** | Criação e chamada de **Funções**. | Organização de código em blocos reutilizáveis para melhor legibilidade e manutenção. |
 
 
-funções: 
+## Funções: 
 
 | Função | Uso |
 | :--- | :--- |
 | **`printf()`** | Responsável por exibir dados (texto, variáveis) na tela (saída de dados). |
 | **`scanf()`** | Responsável por ler a entrada de dados do usuário via teclado (entrada de dados). |
 
-libs
-
+## Libs
 
 
 | Biblioteca | Descrição |

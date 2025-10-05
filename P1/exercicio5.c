@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include<locale.h>
 
 int main() {
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
     float numero;
     printf("\n--- 5. Verificar se um número está entre 0 e 100 ---\n");
     printf("Digite um número: ");

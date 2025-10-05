@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include<locale.h>
 
 int main() {
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
     int numero;
     printf("\n--- 7. Verificar se é múltiplo de 3 e 5 ---\n");
     printf("Digite um número inteiro: ");

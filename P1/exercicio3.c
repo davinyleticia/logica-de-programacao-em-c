@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include<locale.h>
 
 int main() {
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
     float nota;
     printf("\n--- 3. Verificar se o aluno foi aprovado ---\n");
     printf("Digite a nota do aluno: ");

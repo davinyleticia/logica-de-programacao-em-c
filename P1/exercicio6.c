@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include<locale.h>
 
 int main() {
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
     int idade;
     printf("\n--- 6. Classificar idade ---\n");
     printf("Digite a idade da pessoa: ");

@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include<locale.h>
 
 int main() {
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
     int num1, num2, soma;
     printf("\n--- 8. Soma de dois números ---\n");
     printf("Digite o primeiro número inteiro: ");

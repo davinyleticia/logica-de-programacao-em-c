@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include<locale.h>
 
 int main() {
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
     float nota;
     printf("\n--- 10. Classificação de notas ---\n");
     printf("Digite a nota do aluno (0 a 10): ");

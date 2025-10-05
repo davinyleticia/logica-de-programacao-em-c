@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include<locale.h>
 
 int main() {
+    setlocale(LC_ALL, "Portuguese_Brazil");
     int numero;
     printf("\n--- 2. Verificar se um número é par ou ímpar ---\n");
     printf("Digite um número inteiro: ");

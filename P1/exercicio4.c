@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include<locale.h>
 
 void main() {
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
     float num1, num2;
     printf("\n--- 4. Maior entre dois números ---\n");
     printf("Digite o primeiro número: ");

@@ -1,6 +1,9 @@
 #include <stdio.h>
+#include<locale.h>
 
 int main() {
+    setlocale(LC_ALL, "Portuguese_Brazil");
+
     float numero;
     printf("\n--- 9. Verificar se um número é maior que 100 ---\n");
     printf("Digite um número: ");

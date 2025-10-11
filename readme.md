@@ -12,7 +12,7 @@ O objetivo é registrar o conhecimento adquirido, demonstrar a aplicação prát
 | **Estruturas Condicionais** | `if`, `else`, `else if`. | Criação de lógica de decisão complexa (Ex: Classificação de IMC, Par/Ímpar, Aprovação de Notas). |
 | **Estruturas de Repetição** | `for`, `while`, `do-while`. | Implementação de laços para iteração e otimização de tarefas repetitivas. |
 | **Modularização** | Criação e chamada de **Funções**. | Organização de código em blocos reutilizáveis para melhor legibilidade e manutenção. |
-| **Estruturas Condicionais Switch Case** | `switch` - `case` | uso de switch case é uma forma melhorada para evitar usar `if`, `if else` e `casa`|
+| **Estruturas Condicionais Switch Case** | `switch` - `case` | Uso de switch case é uma forma melhorada para evitar usar `if`, `if else` e `casa`|
 
 
 ## Funções: 
